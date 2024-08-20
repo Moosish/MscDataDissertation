@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquadSight Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="SquadSight Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Welcome to SquadSight</h1>
+        </header>
+        <div class="content">
+            <div class="welcome-message">
+                <h2>Hello, Coach!</h2>
+                <p>Welcome to SquadSight. Your one-stop platform for real-time match analysis, player scouting, and tactical insights.</p>
+            </div>
+            <div class="dashboard-previews">
+                <div class="card">
+                    <h3><i class="fas fa-eye"></i> Live View</h3>
+                    <p>View matches in real-time and get the latest insights.</p>
+                    <a href="live.html">Go to Live View</a>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-futbol"></i> Match Centre</h3>
+                    <p>Review recent matches with detailed stats and tactical breakdowns.</p>
+                    <a href="matchcentre.html">Go to Match Centre</a>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-users"></i> Squad View</h3>
+                    <p>Analyze your squad's performance with in-depth metrics and comparisons.</p>
+                    <a href="squad.html">Go to Squad View</a>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-search"></i> Scouting</h3>
+                    <p>Scout new talent and compare potential signings with current squad members.</p>
+                    <a href="scouting.html">Go to Scouting</a>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-cog"></i> Settings & Preferences</h3>
+                    <p>Customize your experience and configure system settings.</p>
+                    <a href="settings.html">Go to Settings</a>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-question-circle"></i> Help & Documentation</h3>
+                    <p>Find guides, FAQs, and support contact information.</p>
+                    <a href="documentation.html">Go to Help & Documentation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

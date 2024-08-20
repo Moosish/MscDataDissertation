@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquadSight - Settings & Preferences</title>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="SquadSight Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Settings & Preferences</h1>
+        </header>
+        <div class="content">
+            <div class="settings-section">
+                <h2><i class="fas fa-bell"></i> Notification Settings</h2>
+                <div class="setting-item">
+                    <label for="email-notifications">Email Notifications</label>
+                    <input type="checkbox" id="email-notifications" checked>
+                </div>
+                <div class="setting-item">
+                    <label for="sms-notifications">SMS Notifications</label>
+                    <input type="checkbox" id="sms-notifications">
+                </div>
+                <div class="setting-item">
+                    <label for="in-app-notifications">In-App Notifications</label>
+                    <input type="checkbox" id="in-app-notifications" checked>
+                </div>
+            </div>
+            <div class="settings-section">
+                <h2><i class="fas fa-database"></i> Data Source Management</h2>
+                <div class="setting-item">
+                    <label for="live-data-source">Live Data Source</label>
+                    <select id="live-data-source">
+                        <option value="source1">Source 1</option>
+                        <option value="source2">Source 2</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label for="historical-data-source">Historical Data Source</label>
+                    <select id="historical-data-source">
+                        <option value="source1">Source 1</option>
+                        <option value="source2">Source 2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="settings-section">
+                <h2><i class="fas fa-paint-brush"></i> Theme Preferences</h2>
+                <div class="setting-item">
+                    <label for="theme-select">Select Theme</label>
+                    <select id="theme-select">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="auto">Auto (based on system settings)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="settings-section">
+                <h2><i class="fas fa-user"></i> Profile Settings</h2>
+                <div class="setting-item">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" value="Coach123">
+                </div>
+                <div class="setting-item">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" value="coach123@example.com">
+                </div>
+                <div class="setting-item">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="********">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

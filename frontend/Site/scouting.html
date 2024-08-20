@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquadSight - Scouting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="SquadSight Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Scouting</h1>
+        </header>
+        <div class="content">
+            <!-- Scouting Filter Form -->
+            <div class="filter-form">
+                <h2>Create a New Scouting View</h2>
+                <form id="scouting-form">
+                    <div class="form-group">
+                        <label for="stat-filter">Select Statistic</label>
+                        <select id="stat-filter" name="stat-filter">
+                            <option value="goals">Goal Contribution per 90</option>
+                            <option value="interceptions">Interceptions per 90</option>
+                            <option value="assists">Assists per 90</option>
+                            <option value="passes">Passes Completed per 90</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="age-filter">Age Range</label>
+                        <input type="number" id="age-min" name="age-min" placeholder="Min Age">
+                        <input type="number" id="age-max" name="age-max" placeholder="Max Age">
+                    </div>
+                    <div class="form-group">
+                        <label for="league-filter">League</label>
+                        <select id="league-filter" name="league-filter">
+                            <option value="premier-league">Premier League</option>
+                            <option value="la-liga">La Liga</option>
+                            <option value="serie-a">Serie A</option>
+                            <option value="bundesliga">Bundesliga</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-create-view">Create View</button>
+                </form>
+            </div>
+
+            <!-- Scouting Views -->
+            <div class="scouting-views">
+                <h2>Saved Scouting Views</h2>
+                <div class="view-card">
+                    <div class="view-summary">
+                        <h3>Premier League Midfielders</h3>
+                        <p>Goals per 90, Age: 20-30</p>
+                    </div>
+                    <button class="btn-expand">Expand</button>
+                    <div class="view-details">
+                        <p>Player 1: John Doe (Age: 25) - 0.5 Goals/90</p>
+                        <p>Player 2: Jane Smith (Age: 28) - 0.4 Goals/90</p>
+                        <!-- Add more player data here -->
+                    </div>
+                </div>
+
+                <!-- Add more scouting view cards as needed -->
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

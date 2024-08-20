@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquadSight - Live View</title>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="SquadSight Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Live View - Ongoing Match</h1>
+        </header>
+        <div class="content">
+            <div class="live-view-container">
+                <!-- Team 1 Section -->
+                <div class="team-section">
+                    <h2>Team 1 - Manchester United</h2>
+                    
+                    <!-- Team 1 Statistics -->
+                    <div class="match-stats">
+                        <h3>Statistics</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <strong>Score:</strong> <span>1</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>Shots:</strong> <span>10</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>Chances Created:</strong> <span>7</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>xG:</strong> <span>1.2</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>Possession:</strong> <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team 1 Field Visualization -->
+                    <div class="field-visualization">
+                        <h3>Players on Field</h3>
+                        <div class="field team-field">
+                            <div class="player" style="top: 20%; left: 30%;">GK</div>
+                            <div class="player" style="top: 50%; left: 25%;">DF</div>
+                            <div class="player" style="top: 30%; left: 50%;">MF</div>
+                            <div class="player" style="top: 70%; left: 50%;">ST</div>
+                            <!-- Add more players as needed -->
+                        </div>
+                    </div>
+
+                    <!-- Team 1 Bench Visualization -->
+                    <div class="bench-visualization">
+                        <h3>Bench</h3>
+                        <div class="bench-grid">
+                            <div class="bench-player">Player 1</div>
+                            <div class="bench-player">Player 2</div>
+                            <div class="bench-player">Player 3</div>
+                            <!-- Add more bench players as needed -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team 2 Section -->
+                <div class="team-section">
+                    <h2>Team 2 - Arsenal</h2>
+
+                    <!-- Team 2 Statistics -->
+                    <div class="match-stats">
+                        <h3>Statistics</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <strong>Score:</strong> <span>1</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>Shots:</strong> <span>8</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>Chances Created:</strong> <span>6</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>xG:</strong> <span>1.0</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>Possession:</strong> <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team 2 Field Visualization -->
+                    <div class="field-visualization">
+                        <h3>Players on Field</h3>
+                        <div class="field team-field">
+                            <div class="player" style="top: 20%; left: 70%;">GK</div>
+                            <div class="player" style="top: 50%; left: 75%;">DF</div>
+                            <div class="player" style="top: 30%; left: 50%;">MF</div>
+                            <div class="player" style="top: 70%; left: 50%;">ST</div>
+                            <!-- Add more players as needed -->
+                        </div>
+                    </div>
+
+                    <!-- Team 2 Bench Visualization -->
+                    <div class="bench-visualization">
+                        <h3>Bench</h3>
+                        <div class="bench-grid">
+                            <div class="bench-player">Player A</div>
+                            <div class="bench-player">Player B</div>
+                            <div class="bench-player">Player C</div>
+                            <!-- Add more bench players as needed -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

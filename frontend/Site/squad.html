@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquadSight - Squad View</title>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="SquadSight Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Squad View - Your Team</h1>
+        </header>
+        <div class="content">
+            <!-- Goalkeepers -->
+            <div class="position-section">
+                <h2>Goalkeepers</h2>
+                <ul class="player-list">
+                    <li>
+                        <span class="player-name">David de Gea</span>
+                        <span class="player-age">31</span>
+                        <span class="player-nationality">Spain</span>
+                        <span class="injury-status">No Injury</span>
+                    </li>
+                    <!-- Add more goalkeepers as needed -->
+                </ul>
+            </div>
+
+            <!-- Defenders -->
+            <div class="position-section">
+                <h2>Defenders</h2>
+                <ul class="player-list">
+                    <li>
+                        <span class="player-name">Harry Maguire</span>
+                        <span class="player-age">29</span>
+                        <span class="player-nationality">England</span>
+                        <span class="injury-status injury">Ankle Sprain (Return: 2024-02-01)</span>
+                    </li>
+                    <!-- Add more defenders as needed -->
+                </ul>
+            </div>
+
+            <!-- Midfielders -->
+            <div class="position-section">
+                <h2>Midfielders</h2>
+                <ul class="player-list">
+                    <li>
+                        <span class="player-name">Bruno Fernandes</span>
+                        <span class="player-age">27</span>
+                        <span class="player-nationality">Portugal</span>
+                        <span class="injury-status injury">Hamstring (Return: 2024-01-15)</span>
+                    </li>
+                    <!-- Add more midfielders as needed -->
+                </ul>
+            </div>
+
+            <!-- Forwards -->
+            <div class="position-section">
+                <h2>Forwards</h2>
+                <ul class="player-list">
+                    <li>
+                        <span class="player-name">Cristiano Ronaldo</span>
+                        <span class="player-age">36</span>
+                        <span class="player-nationality">Portugal</span>
+                        <span class="injury-status">No Injury</span>
+                    </li>
+                    <!-- Add more forwards as needed -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
