@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squad View</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <!-- Sidebar (for context) -->
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Squad View</h1>
+        </header>
+
+        <div class="content">
+            <div id="squad-container">
+                <h2>Loading Squad...</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function loadSquad(clubId) {
+            const squadContainer = document.getElementById('squad-container');
+            squadContainer.innerHTML = '<h2>Loading Squad...</h2>';
+
+            try {
+                const response = await fetch(`/api/club/${clubId}/players`);
+                if (response.ok) {
+                    const players = await response.json();
+                    displaySquad(players);
+                } else {
+                    squadContainer.innerHTML = '<h2>Error loading squad.</h2>';
+                }
+            } catch (error) {
+                console.error('Error loading squad:', error);
+                squadContainer.innerHTML = '<h2>Error loading squad.</h2>';
+            }
+        }
+
+        function displaySquad(players) {
+            const squadContainer = document.getElementById('squad-container');
+            squadContainer.innerHTML = ''; // Clear loading message
+
+            const positions = {};
+
+            // Categorize players by position
+            players.forEach(player => {
+                if (!positions[player.position]) {
+                    positions[player.position] = [];
+                }
+                positions[player.position].push(player);
+            });
+
+            // Display players grouped by position
+            for (const position in positions) {
+                const positionSection = document.createElement('div');
+                positionSection.classList.add('position-section');
+                positionSection.innerHTML = `<h2>${position}</h2>`;
+
+                const playerList = document.createElement('ul');
+                playerList.classList.add('player-list');
+
+                positions[position].forEach(player => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `
+                        <span class="player-name"><a href="player.html?player_id=${player.player_id}">${player.name}</a></span>
+                    `;
+                    playerList.appendChild(listItem);
+                });
+
+                positionSection.appendChild(playerList);
+                squadContainer.appendChild(positionSection);
+            }
+        }
+
+        // Example clubId, replace with dynamic ID if necessary
+        const clubId = 985; 
+        loadSquad(clubId);
+    </script>
+</body>
+</html>

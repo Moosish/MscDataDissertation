@@ -1,0 +1,14 @@
+{
+    "name": "squadsight",
+    "version": "1.0.0",
+    "description": "SquadSight Application",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "@google-cloud/bigquery": "^5.7.0"
+    }
+  }
+  

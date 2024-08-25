@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scouting Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <!-- Sidebar (for context) -->
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Scouting</h1>
+        </header>
+
+        <div class="content">
+            <div class="filter-form">
+                <h2>Create Scouting View</h2>
+                <form id="scouting-form">
+                    <!-- League Filter Dropdown -->
+                    <div class="form-group">
+                        <label for="league">League</label>
+                        <select id="league" name="league">
+                            <option value="">Select League</option>
+                            <!-- Leagues will be dynamically populated here -->
+                        </select>
+                    </div>
+
+                    <!-- Age Range Filter -->
+                    <div class="form-group">
+                        <label for="minAge">Minimum Age</label>
+                        <input type="number" id="minAge" name="minAge">
+                    </div>
+                    <div class="form-group">
+                        <label for="maxAge">Maximum Age</label>
+                        <input type="number" id="maxAge" name="maxAge">
+                    </div>
+
+                    <!-- Numeric Filters -->
+                    <div class="form-group">
+                        <label for="conditions">Conditions (e.g., Tackles >= 5)</label>
+                        <div id="condition-container">
+                            <div class="condition-row">
+                                <select name="column[]">
+                                    <!-- Metrics will be dynamically populated here -->
+                                </select>
+                                <select name="operator[]">
+                                    <option value=">=">>=</option>
+                                    <option value="<="><=</option>
+                                    <option value="=">=</option>
+                                </select>
+                                <input type="number" name="value[]" placeholder="Value (e.g., 10)">
+                            </div>
+                        </div>
+                        <button type="button" id="add-condition">Add Another Condition</button>
+                    </div>
+
+                    <button type="submit" class="btn-create-view">Create View</button>
+                </form>
+            </div>
+
+            <div class="scouting-views" id="scouting-views">
+                <h2>Scouting Results</h2>
+                <!-- Scouting result cards will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Add this in your HTML, inside the main content area -->
+<div id="loading-spinner" class="loading-spinner" style="display: none;">
+    <div class="spinner"></div>
+</div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+    // Fetch available leagues and metrics from the backend
+    await populateLeagues();
+    const metrics = await populateMetrics(); // Fetch metrics once and use them throughout
+
+    document.getElementById('add-condition').addEventListener('click', () => {
+        const container = document.getElementById('condition-container');
+        const newCondition = document.createElement('div');
+        newCondition.classList.add('condition-row');
+        newCondition.innerHTML = `
+            <select name="column[]">
+                <!-- Metrics will be dynamically populated here -->
+            </select>
+            <select name="operator[]">
+                <option value=">=">>=</option>
+                <option value="<="><=</option>
+                <option value="=">=</option>
+            </select>
+            <input type="number" name="value[]" placeholder="Value (e.g., 10)">
+        `;
+        container.appendChild(newCondition);
+
+        // Populate the newly added column dropdown with metrics
+        populateColumns(newCondition.querySelector('select[name="column[]"]'), metrics);
+    });
+
+    document.getElementById('scouting-form').addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    // Show the loading spinner
+    document.getElementById('loading-spinner').style.display = 'flex';
+
+    // Gather form data
+    const formData = new FormData(event.target);
+    const scoutingCriteria = {};
+
+    // League and age filters
+    scoutingCriteria.league = formData.get('league');
+    scoutingCriteria.minAge = parseInt(formData.get('minAge'), 10);
+    scoutingCriteria.maxAge = parseInt(formData.get('maxAge'), 10);
+
+    // Conditions
+    scoutingCriteria.conditions = [];
+    const columns = formData.getAll('column[]');
+    const operators = formData.getAll('operator[]');
+    const values = formData.getAll('value[]');
+
+    columns.forEach((column, index) => {
+        const value = values[index];
+        const numericValue = parseFloat(value); // Convert to number
+
+        scoutingCriteria.conditions.push({
+            column,
+            operator: operators[index],
+            value: !isNaN(numericValue) ? numericValue : value,
+        });
+    });
+
+    console.log('Scouting Criteria:', scoutingCriteria); // Log the scouting criteria
+
+    // Send the scoutingCriteria object to the backend
+    try {
+        const response = await fetch('/api/scouting', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(scoutingCriteria),
+        });
+
+        if (response.ok) {
+            const players = await response.json();
+            displayScoutingResults(players, scoutingCriteria.conditions); // Pass conditions to display function
+        } else {
+            console.error('Failed to fetch scouting data');
+        }
+    } catch (error) {
+        console.error('Error submitting scouting data:', error);
+    } finally {
+        // Hide the loading spinner after data is displayed or an error occurs
+        document.getElementById('loading-spinner').style.display = 'none';
+    }
+});
+
+
+
+});
+
+// Function to populate leagues from backend (replace with actual data fetching)
+async function populateLeagues() {
+    const leagueDropdown = document.getElementById('league');
+    try {
+        // Fetch available leagues from your backend API
+        const response = await fetch('/api/leagues');
+        const leagues = await response.json();
+
+        // Populate the league dropdown
+        leagues.forEach(league => {
+            const option = document.createElement('option');
+            option.value = league;
+            option.textContent = league;
+            leagueDropdown.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Error fetching leagues:', error);
+    }
+}
+
+// Function to populate available metrics from the backend
+async function populateMetrics() {
+    try {
+        // Fetch available metrics from your backend API
+        const response = await fetch('/api/metrics');
+        const metrics = await response.json();
+
+        // Populate the metrics dropdown in the initial conditions section
+        populateColumns(document.querySelector('select[name="column[]"]'), metrics);
+
+        // Return the metrics to use when adding new condition rows
+        return metrics;
+    } catch (error) {
+        console.error('Error fetching metrics:', error);
+    }
+}
+
+// Populate columns dynamically
+function populateColumns(selectElement, metrics) {
+    // Clear existing options
+    selectElement.innerHTML = '';
+
+    // Add each metric as an option
+    metrics.forEach(metric => {
+        const option = document.createElement('option');
+        option.value = metric;
+        option.textContent = metric;
+        selectElement.appendChild(option);
+    });
+}
+
+
+
+function displayScoutingResults(players, conditions) {
+    const scoutingViews = document.getElementById('scouting-views');
+    scoutingViews.innerHTML = ''; // Clear previous results
+
+    // Display the player results
+    players.forEach(player => {
+        const card = document.createElement('div');
+        card.classList.add('view-card');
+
+        // Build the HTML content of the card, including a link to the player page
+        let cardContent = `
+            <div class="view-summary">
+                <h3>${player.Player || 'No name found'}</h3>
+                <button class="btn-expand">Expand</button>
+            </div>
+            <div class="view-details">
+                <p>League: ${player.League || 'No league found'}</p> <!-- League info -->
+                <p>Assists: ${player.Ast || 'N/A'}</p>
+                <p>Tackles: ${player['Tackles - Tkl'] || 'N/A'}</p>
+                <p>SCA: ${player['SCA - SCA'] || 'N/A'}</p>
+                <p>GCA: ${player['GCA - GCA'] || 'N/A'}</p>
+                <p>xAG: ${player.xAG || 'N/A'}</p>
+                <h4>Applied Conditions:</h4>
+                <ul>
+        `;
+
+        // Add conditions to the card
+        conditions.forEach(condition => {
+            cardContent += `<li>${condition.column} ${condition.operator} ${condition.value}</li>`;
+        });
+
+        cardContent += `
+                </ul>
+        `;
+
+        // Add a link to the player's profile page if player_id is available
+        if (player.player_id) {
+            cardContent += `<a href="/player.html?player_id=${player.player_id}" class="player-link">View Player Profile</a>`;
+        } else {
+            cardContent += `<p class="player-link-disabled">Profile not available</p>`;
+        }
+
+        cardContent += `</div>`;
+
+        card.innerHTML = cardContent;
+
+        // Toggle details visibility
+        const expandButton = card.querySelector('.btn-expand');
+        expandButton.addEventListener('click', function() {
+            const details = card.querySelector('.view-details');
+            details.style.display = details.style.display === 'block' ? 'none' : 'block';
+        });
+
+        scoutingViews.appendChild(card);
+    });
+}
+
+
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
