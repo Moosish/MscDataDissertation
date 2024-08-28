@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SquadSight - Live View</title>
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Live View</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Sidebar -->
     <div class="sidebar">
         <div class="logo">
             <img src="SquadSight_transparent-.png" alt="SquadSight Logo">
@@ -28,114 +29,112 @@
             <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
         </div>
     </div>
+
+    <!-- Main content area -->
     <div class="main-content">
         <header>
-            <h1>Live View - Ongoing Match</h1>
+            <h1>Live View</h1>
         </header>
-        <div class="content">
-            <div class="live-view-container">
-                <!-- Team 1 Section -->
-                <div class="team-section">
-                    <h2>Team 1 - Manchester United</h2>
-                    
-                    <!-- Team 1 Statistics -->
-                    <div class="match-stats">
-                        <h3>Statistics</h3>
-                        <div class="stats-grid">
-                            <div class="stat-item">
-                                <strong>Score:</strong> <span>1</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>Shots:</strong> <span>10</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>Chances Created:</strong> <span>7</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>xG:</strong> <span>1.2</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>Possession:</strong> <span>55%</span>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Team 1 Field Visualization -->
-                    <div class="field-visualization">
-                        <h3>Players on Field</h3>
-                        <div class="field team-field">
-                            <div class="player" style="top: 20%; left: 30%;">GK</div>
-                            <div class="player" style="top: 50%; left: 25%;">DF</div>
-                            <div class="player" style="top: 30%; left: 50%;">MF</div>
-                            <div class="player" style="top: 70%; left: 50%;">ST</div>
-                            <!-- Add more players as needed -->
-                        </div>
-                    </div>
-
-                    <!-- Team 1 Bench Visualization -->
-                    <div class="bench-visualization">
-                        <h3>Bench</h3>
-                        <div class="bench-grid">
-                            <div class="bench-player">Player 1</div>
-                            <div class="bench-player">Player 2</div>
-                            <div class="bench-player">Player 3</div>
-                            <!-- Add more bench players as needed -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team 2 Section -->
-                <div class="team-section">
-                    <h2>Team 2 - Arsenal</h2>
-
-                    <!-- Team 2 Statistics -->
-                    <div class="match-stats">
-                        <h3>Statistics</h3>
-                        <div class="stats-grid">
-                            <div class="stat-item">
-                                <strong>Score:</strong> <span>1</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>Shots:</strong> <span>8</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>Chances Created:</strong> <span>6</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>xG:</strong> <span>1.0</span>
-                            </div>
-                            <div class="stat-item">
-                                <strong>Possession:</strong> <span>45%</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team 2 Field Visualization -->
-                    <div class="field-visualization">
-                        <h3>Players on Field</h3>
-                        <div class="field team-field">
-                            <div class="player" style="top: 20%; left: 70%;">GK</div>
-                            <div class="player" style="top: 50%; left: 75%;">DF</div>
-                            <div class="player" style="top: 30%; left: 50%;">MF</div>
-                            <div class="player" style="top: 70%; left: 50%;">ST</div>
-                            <!-- Add more players as needed -->
-                        </div>
-                    </div>
-
-                    <!-- Team 2 Bench Visualization -->
-                    <div class="bench-visualization">
-                        <h3>Bench</h3>
-                        <div class="bench-grid">
-                            <div class="bench-player">Player A</div>
-                            <div class="bench-player">Player B</div>
-                            <div class="bench-player">Player C</div>
-                            <!-- Add more bench players as needed -->
-                        </div>
-                    </div>
-                </div>
+        <div class="container">
+        
+            <!-- Dropdown for selecting a match -->
+            <select id="match-dropdown">
+                <!-- Options will be populated here -->
+            </select>
+            <div class="control-panel">
+                <button id="load-match-events">Load Match Events</button>
+                <button id="play-button">Play</button>
             </div>
-        </div>
+            
+            <div class="stats-container">
+                <!-- Major Stats Card -->
+                <div class="card major-stats-card">
+                    <h3>Key Match Stats</h3>
+                    <div class="team-stats">
+                        <div class="team">
+                            <h4 id="home-team">Home Team</h4>
+                            <p>Possession: <span id="home-possession">0%</span></p>
+                            <p>Shots: <span id="home-shots">0</span></p>
+                            <p>Shots on Target: <span id="home-shots-on-target">0</span></p>
+                            <p>Expected Goals (xG): <span id="home-expected-goals">0.00</span></p>
+                            <p>Accurate Passes: <span id="home-accurate-passes">0</span> (<span id="home-pass-accuracy">NaN%</span>)</p>
+                            <p>Goals: <span id="home-goals">0</span></p>
+                        </div>
+                        <div class="team">
+                            <h4 id="away-team">Away Team</h4>
+                            <p>Possession: <span id="away-possession">0%</span></p>
+                            <p>Shots: <span id="away-shots">0</span></p>
+                            <p>Shots on Target: <span id="away-shots-on-target">0</span></p>
+                            <p>Expected Goals (xG): <span id="away-expected-goals">0.00</span></p>
+                            <p>Accurate Passes: <span id="away-accurate-passes">0</span> (<span id="away-pass-accuracy">NaN%</span>)</p>
+                            <p>Goals: <span id="away-goals">0</span></p>
+                        </div>
+                    </div>
+                    <button id="expand-stats-button">Expand Stats</button>
+                </div>
+                
+                <!-- Hidden Stats Card (Initially Hidden) -->
+                <div id="hidden-stats" class="card additional-stats-card" style="display: none;">
+                    <h3>Additional Stats</h3>
+                    <div class="team-stats">
+                        <div class="team">
+                            <h4 id="home-team-expanded">Home Team</h4>
+                            <p>Big Chances: <span id="home-big-chances">0</span></p>
+                            <p>Big Chances Missed: <span id="home-big-chances-missed">0</span></p>
+                            <p>Fouls Committed: <span id="home-fouls-committed">0</span></p>
+                            <p>Corners: <span id="home-corners">0</span></p>
+                            <p>Blocked Shots: <span id="home-blocked-shots">0</span></p>
+                            <p>Touches in Opposition Box: <span id="home-touches-opposition-box">0</span></p>
+                            <p>Yellow Cards: <span id="home-yellow-cards">0</span></p>
+                            <p>Red Cards: <span id="home-red-cards">0</span></p>
+                            <p>Tackles Won: <span id="home-tackles-won">0</span></p>
+                            <p>Interceptions: <span id="home-interceptions">0</span></p>
+                            <p>Clearances: <span id="home-clearances">0</span></p>
+                            <p>Keeper Saves: <span id="home-keeper-saves">0</span></p>
+                        </div>
+                        <div class="team">
+                            <h4 id="away-team-expanded">Away Team</h4>
+                            <p>Big Chances: <span id="away-big-chances">0</span></p>
+                            <p>Big Chances Missed: <span id="away-big-chances-missed">0</span></p>
+                            <p>Fouls Committed: <span id="away-fouls-committed">0</span></p>
+                            <p>Corners: <span id="away-corners">0</span></p>
+                            <p>Blocked Shots: <span id="away-blocked-shots">0</span></p>
+                            <p>Touches in Opposition Box: <span id="away-touches-opposition-box">0</span></p>
+                            <p>Yellow Cards: <span id="away-yellow-cards">0</span></p>
+                            <p>Red Cards: <span id="away-red-cards">0</span></p>
+                            <p>Tackles Won: <span id="away-tackles-won">0</span></p>
+                            <p>Interceptions: <span id="away-interceptions">0</span></p>
+                            <p>Clearances: <span id="away-clearances">0</span></p>
+                            <p>Keeper Saves: <span id="away-keeper-saves">0</span></p>
+                        </div>
+                    </div>
+                    <div class="card substitution-prediction-card">
+                        <h3>Substitution Prediction</h3>
+                        <p>Likelihood of Home Team Substitution: <span id="home-substitution-prediction">Calculating...</span></p>
+                        <p>Likelihood of Away Team Substitution: <span id="away-substitution-prediction">Calculating...</span></p>
+                    </div> 
+                    <div class="card change-prediction-card">
+                        <h3>Tactical Change Prediction</h3>
+                        <p>Home Team Expected Change: <span id="home-tactical-shift-probability">Calculating...</span></p>
+                        <p>Away Team Expected Change: <span id="away-tactical-shift-probability">Calculating...</span></p>
+                    </div>                                      
+                </div>                           
+        
+            <!-- Play-by-Play Container -->
+            <div id="events-container" class="events-container"></div>
+            </div>
+            
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2024 SquadSight. All Rights Reserved.</p>
+        </div>           
     </div>
+
+    <!-- Add FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- Scripts -->
     <script src="scripts.js"></script>
 </body>
 </html>

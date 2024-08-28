@@ -1,0 +1,372 @@
+game_lineups_id,date,game_id,player_id,club_id,player_name,type,position,number,team_captain
+b2dbe01c3656b06c8e23e9de714e26bb,2013-07-27,2317258,1443,610,Christian Poulsen,substitutes,Defensive Midfield,5,0
+b50a3ec6d52fd1490aab42042ac4f738,2013-07-27,2317258,5017,610,Niklas Moisander,starting_lineup,Centre-Back,4,0
+7d890e6d0ff8af84b065839966a0ec81,2013-07-27,2317258,9602,1090,Maarten Martens,substitutes,Left Winger,11,0
+8c355268678b9bbc7084221b1f0fde36,2013-07-27,2317258,12282,610,Daley Blind,starting_lineup,Left-Back,17,0
+76193074d549e5fdce4cdcbba0d66247,2013-07-27,2317258,25427,1090,Roy Beerens,starting_lineup,Right Winger,23,0
+e5684d3b01123e27e738a6c7ed1c24cc,2013-07-27,2317258,28815,1090,Jan Wuytens,starting_lineup,Centre-Back,29,0
+d196e3ec2f03110a523b6eaa65027f07,2013-07-27,2317258,30290,610,Kenneth Vermeer,starting_lineup,Goalkeeper,1,0
+e9e1212e3ba0dabdf39f45ce631799f7,2013-07-27,2317258,34784,610,Lasse Schöne,starting_lineup,Defensive Midfield,20,0
+53ca254113ffc1b2f4533b0e334c9a15,2013-07-27,2317258,36391,1090,Viktor Elm,starting_lineup,Defensive Midfield,12,0
+03fe553a31b7cc907330b989c060b5cc,2013-07-27,2317258,42266,1090,Yves De Winter,substitutes,Goalkeeper,16,0
+1412e8a9285378507537c6346c77c6ff,2013-07-27,2317258,42710,610,Toby Alderweireld,starting_lineup,Centre-Back,3,0
+55159dbf91561a01ba94bd9d61c6d33d,2013-07-27,2317258,44675,610,Bojan Krkic,starting_lineup,Right Winger,11,0
+be9fbdcde744131e27d57f1ad13bbfd7,2013-07-27,2317258,45509,610,Siem de Jong,starting_lineup,Attacking Midfield,10,1
+d25d1f3a4bd28e3b99f28f8f93781de0,2013-07-27,2317258,52246,610,Kolbeinn Sigthórsson,starting_lineup,Centre-Forward,9,0
+d51bc97b0db40f004acb5c66e4e609ed,2013-07-27,2317258,56534,1090,Donny Gorter,substitutes,Left-Back,5,0
+ac1c4c90cf314ad3f4f247be447acba9,2013-07-27,2317258,69633,610,Christian Eriksen,starting_lineup,Central Midfield,8,0
+091c126bd4e71488db374cb2958ae89e,2013-07-27,2317258,69642,610,Nicolai Boilesen,substitutes,Left-Back,15,0
+37f4184cf76506a50eab234280d99765,2013-07-27,2317258,74294,1090,Nemanja Gudelj,starting_lineup,Central Midfield,27,0
+d4c2262dc4bacc63d59810193c51e4f8,2013-07-27,2317258,80709,1090,Willie Overtoom,substitutes,Attacking Midfield,10,0
+4c0ba30ea80ef6c582506eecf284f788,2013-07-27,2317258,81163,610,Danny Hoesen,substitutes,Centre-Forward,23,0
+000c9cb8392bccf4db4e0a30ff3cd440,2013-07-27,2317258,89231,1090,Jóhann Berg Gudmundsson,starting_lineup,Left Winger,7,0
+0950259bdf02b7086d893a266de7b5b9,2013-07-27,2317258,93081,1090,Nick Viergever,starting_lineup,Left-Back,4,1
+73c20db04ea2cd759a44afc1e1f5579f,2013-07-27,2317258,95755,610,Viktor Fischer,starting_lineup,Left Winger,7,0
+2b8afc17d84ee0883cc797dc344d7734,2013-07-27,2317258,106405,1090,Jeffrey Gouweleeuw,starting_lineup,Centre-Back,24,0
+82b69f189954d9ad418a07ea1a1ff290,2013-07-27,2317258,107969,1090,Fernando Lewis,substitutes,Right Winger,40,0
+cad8735123d83e9ac18b7935cae0a90a,2013-07-27,2317258,109881,610,Thulani Serero,substitutes,Defensive Midfield,25,0
+f07750d08f8abd7542a3f486ff3984e6,2013-07-27,2317258,111195,610,Joël Veltman,substitutes,Right-Back,12,0
+e80daae466affd654644a291c02bd2b5,2013-07-27,2317258,119169,1090,Aron Jóhannsson,starting_lineup,Centre-Forward,20,0
+7e5e51f95245697de9b8ea2068ff8e75,2013-07-27,2317258,122011,1090,Markus Henriksen,starting_lineup,Attacking Midfield,19,0
+fa1d3136ab81c5b857bdc366ec332175,2013-07-27,2317258,124883,610,Ricardo van Rhijn,starting_lineup,Right-Back,2,0
+553ec5f80b96e8bacbc5873970a0e7e0,2013-07-27,2317258,125250,1090,Celso Ortiz,substitutes,Defensive Midfield,26,0
+51877bc9701b8a29ee34d96ce45b15b8,2013-07-27,2317258,128502,1090,Esteban Alvarado,starting_lineup,Goalkeeper,1,0
+36bc09b941c345cbb17bd1ff03e52012,2013-07-27,2317258,131821,1090,Thomas Lam,substitutes,Centre-Back,28,0
+f79553bd9f29d3f987d0c22669d136e1,2013-07-27,2317258,132014,1090,Mattias Johansson,starting_lineup,Right-Back,2,0
+4ee7cd5d8ab7b3e3bbfb0f1fd4935559,2013-07-27,2317258,146227,610,Jasper Cillessen,substitutes,Goalkeeper,22,0
+da8c9ef784e8deb62426747aab85c555,2013-07-27,2317258,148344,610,Lucas Andersen,substitutes,Right Winger,16,0
+4bcae165ead9b2ead967866ffc01d5eb,2013-08-05,2320446,80,27,Tom Starke,substitutes,Goalkeeper,22,0
+501e04f571ee9bd15e1c5140e0fc7963,2013-08-05,2320446,2219,27,Philipp Lahm,substitutes,Right-Back,21,0
+d611ea785dedd06929bccd24e948dbe9,2013-08-05,2320446,2514,27,Bastian Schweinsteiger,starting_lineup,Defensive Midfield,31,0
+55dc3c9808eff11cf8a1c5f2cf31d18b,2013-08-05,2320446,4360,27,Arjen Robben,starting_lineup,Right Winger,10,0
+b12b95a342826198c2be31edb6da1bb5,2013-08-05,2320446,4740,27,Daniel Van Buyten,starting_lineup,Centre-Back,5,0
+4386990f0d2d9ae581ec3b141b088910,2013-08-05,2320446,6699,5560,Stefan Heyken (Leimbrink),starting_lineup,Centre-Back,5,0
+b61c16ebaa53be43d69be08ef06a1f93,2013-08-05,2320446,16136,27,Dante,starting_lineup,Centre-Back,4,0
+7a6222b649fe9ece8502a7a38389fe07,2013-08-05,2320446,17246,5560,Viktor Pekrul,starting_lineup,Right-Back,2,0
+1d0bd375091a9bad601b019f29471af7,2013-08-05,2320446,17259,27,Manuel Neuer,starting_lineup,Goalkeeper,1,0
+54a3c8338eae0f9a93c1aa36ba46bdc4,2013-08-05,2320446,22068,27,Franck Ribéry,substitutes,Left Winger,7,0
+564d80a4f61ded6726e150c35bbcc00b,2013-08-05,2320446,22527,5560,Kevin Artmann,starting_lineup,Attacking Midfield,10,0
+12614a7a8d5a5d5dedcdf899b815be9f,2013-08-05,2320446,26485,27,Jérôme Boateng,substitutes,Centre-Back,17,0
+18bb68f8b65e5ddb9815a448ccd1b2ce,2013-08-05,2320446,31909,27,Toni Kroos,starting_lineup,Central Midfield,39,0
+b32b06cc4d90a30ef6845ca8f743d517,2013-08-05,2320446,31911,5560,Milos Mandic,starting_lineup,Goalkeeper,1,0
+100de236c68f3b93887087a302c74167,2013-08-05,2320446,33947,27,Rafinha,starting_lineup,Right-Back,13,0
+4dda64e3673affc752c1ff9c84a88a73,2013-08-05,2320446,34572,27,Mario Mandzukic,starting_lineup,Centre-Forward,9,0
+fc1b17967d2ef2e42da172e2b02399d5,2013-08-05,2320446,41016,5560,Danny Arend,starting_lineup,Defensive Midfield,11,0
+848349d9bf47bdc0bfae36ec11c6af91,2013-08-05,2320446,42081,5560,Alexander Neumann,starting_lineup,Centre-Forward,14,0
+72f598c6f52ab0b69c7a90238cae6d54,2013-08-05,2320446,44017,27,Javi Martínez,substitutes,Defensive Midfield,8,0
+879e6eca0a9e626c7b8c1f0db99ddd69,2013-08-05,2320446,49734,27,Jan Kirchhoff,substitutes,Defensive Midfield,15,0
+0e0e9bbf5babecd3372d01131fe71f40,2013-08-05,2320446,58358,27,Thomas Müller,starting_lineup,Attacking Midfield,25,0
+e178e9573e936377b513562b6de64c25,2013-08-05,2320446,59016,27,David Alaba,starting_lineup,Left-Back,27,0
+43f3774d266db3b50d03d1e0e46eeef1,2013-08-05,2320446,60444,27,Thiago,substitutes,Central Midfield,6,0
+3d7026ec7b641a05dda3ee6fad49d103,2013-08-05,2320446,83803,5560,Christian Hegerfeld,starting_lineup,Left-Back,12,0
+17523fc32be0bfe67bd1aa1b57eae133,2013-08-05,2320446,85962,5560,Dominic Krogemann,substitutes,Centre-Back,6,0
+31c123a4ca98ab2f33d116636be07ee5,2013-08-05,2320446,86792,27,Xherdan Shaqiri,starting_lineup,Left Winger,11,0
+bfd7522e993ec6919e084f3a9a0c3dad,2013-08-05,2320446,109198,5560,Marius Winkelmann,substitutes,Defensive Midfield,3,0
+0cea196121651e3134e7aa9c74c3ee45,2013-08-05,2320446,117500,5560,Florian Stütz,starting_lineup,Right Midfield,13,0
+841a2a1402874ffb9ad8e10066985e83,2013-08-05,2320446,138647,5560,Kifuta,substitutes,Centre-Forward,9,0
+fedd4284a6f124c20b0ec877773316bc,2013-08-05,2320446,166155,5560,Josip Tomic,substitutes,Attacking Midfield,17,0
+252338249c5141e8d2b6c9a409848f38,2013-08-05,2320446,191373,5560,Michael Wessel,starting_lineup,Centre-Back,4,0
+f3b5405b7732be7bcb295c52f0e7b638,2013-08-05,2320446,192495,5560,Maciej Kwiatkowski,substitutes,Centre-Back,-,0
+de3528b431769e0c9bd890c3faaebb32,2013-08-05,2320446,231182,5560,Celio Rocha,substitutes,Goalkeeper,22,0
+4b8c0983611739e4818089eb137dbc44,2013-08-05,2320446,239860,5560,Taiki Hirooka,starting_lineup,Left Midfield,7,0
+c18afe222ea207e2acfda077c1d6f698,2013-08-05,2320446,268947,5560,Younes Chaib,starting_lineup,Second Striker,30,0
+74cef27a69883f917a3de7e2f11a6cf4,2013-08-05,2320446,281566,5560,Jeff-Denis Fehr,substitutes,Left Midfield,15,0
+62566a6ed1066036a578fa584ce4d503,2013-08-03,2320447,26,16,Roman Weidenfeller,substitutes,Goalkeeper,1,0
+e4ed89ef52777c41b7c2a96a1bef5450,2013-08-03,2320447,410,16,Sebastian Kehl,starting_lineup,Defensive Midfield,5,1
+bff949657fac7b5e56acb5dd6ba6dd95,2013-08-03,2320447,1993,96,Dario Fossi,substitutes,Centre-Back,7,0
+4b5ac966a0cbba098e8bc5f61255b3a4,2013-08-03,2320447,2150,16,Oliver Kirch,substitutes,Defensive Midfield,21,0
+61be9e78b1d56824ecf29365d55fdfa5,2013-08-03,2320447,7161,16,Jonas Hofmann,substitutes,Right Winger,7,0
+917cb20930899a36c9cf9085f1a452cd,2013-08-03,2320447,29835,16,Jakub Blaszczykowski,substitutes,Right Winger,16,0
+b28de4fee12917c04fb06df824a68b63,2013-08-03,2320447,29993,16,Sven Bender,substitutes,Defensive Midfield,6,0
+190e9ee07f110a257d5552ea4f832f7d,2013-08-03,2320447,31095,16,Nuri Şahin,starting_lineup,Central Midfield,18,0
+f1f6a6e6c2a81e7bd8d5014dc4c1b659,2013-08-03,2320447,35207,16,Marco Reus,starting_lineup,Left Winger,11,0
+172346c7b1a0c1fa962655bac3d009f2,2013-08-03,2320447,35208,16,Marcel Schmelzer,starting_lineup,Left-Back,29,0
+ca43c886dbc8e84465d24383e4d72cb9,2013-08-03,2320447,36351,96,Matthias Tietz,starting_lineup,Attacking Midfield,14,1
+6329d1901c7bea0ca4d7a5d290853810,2013-08-03,2320447,38253,16,Robert Lewandowski,starting_lineup,Centre-Forward,9,0
+03c55ef90b894c5f0b02544d43dfea86,2013-08-03,2320447,39718,96,Alessandro Alfieri,starting_lineup,Defensive Midfield,13,0
+cbdd5a0d3db0954303ea94e4078457c7,2013-08-03,2320447,39728,16,Mats Hummels,starting_lineup,Centre-Back,15,0
+515d98d74f56a12edc5236b62644338f,2013-08-03,2320447,40995,16,Neven Subotic,starting_lineup,Centre-Back,4,0
+3393ea47c24ca5c9a3434c81d83ac27c,2013-08-03,2320447,44521,16,Kevin Großkreutz,starting_lineup,Right-Back,19,0
+cdfe3497d58df35e5a7fc7df368f9efa,2013-08-03,2320447,45692,96,David Loheider,starting_lineup,Centre-Forward,23,0
+e510310ada18085e6ca0f570dfcb37ce,2013-08-03,2320447,49347,16,Mitchell Langerak,starting_lineup,Goalkeeper,20,0
+f685a058a53bd96be1fe12ae0954a499,2013-08-03,2320447,53622,16,İlkay Gündoğan,starting_lineup,Attacking Midfield,8,0
+a57fa8837863eba26eb2a4bbd0f8de45,2013-08-03,2320447,57844,96,Aaron Siegl,starting_lineup,Goalkeeper,1,0
+93e4a41acf7226c71a7f3fab6627a1c3,2013-08-03,2320447,58864,16,Pierre-Emerick Aubameyang,starting_lineup,Right Winger,17,0
+9644a02866e0b69535d8a19abf2bbcdd,2013-08-03,2320447,82657,96,Christopher Braun,starting_lineup,Right-Back,12,0
+b019addfd619337350ce530e6008be5c,2013-08-03,2320447,82738,96,Tim Scheffler,substitutes,Centre-Forward,21,0
+5986b37a728a160852ec67777d5cc078,2013-08-03,2320447,85914,96,Abdel Abou Khalil,substitutes,Left Midfield,11,0
+05090bc01a5ec1be324d55683f063c18,2013-08-03,2320447,89499,96,Aljoscha Hyde,starting_lineup,Left-Back,2,0
+dacbbb6b4c421f3aaf96bdf262f97bb8,2013-08-03,2320447,93922,16,Erik Durm,substitutes,Right-Back,37,0
+5043d3e78b38948f3be6f24fa9258ff8,2013-08-03,2320447,125103,16,Marvin Ducksch,substitutes,Second Striker,34,0
+3534ba47a042a2344cbec579666d4845,2013-08-03,2320447,135016,96,Yuta Kawachi,substitutes,Attacking Midfield,6,0
+5f08fd61d7b64954718c8906a4852c15,2013-08-03,2320447,153670,96,Karlis Plendiskis,starting_lineup,Centre-Back,24,0
+80216b26c265da6ab1df4862b28aef22,2013-08-03,2320447,158058,96,Gazi Siala,starting_lineup,Defensive Midfield,19,0
+5e6917fed8ea7f989af75cd8dc08d5e8,2013-08-03,2320447,161414,96,Youness Buduar,starting_lineup,Left Midfield,9,0
+599903025ccef9f8f4ff65d49567bbf2,2013-08-03,2320447,162519,96,Angelos Eleftheriadis,starting_lineup,Centre-Back,18,0
+3e0f1a216b5d23a7a96a9c983014be22,2013-08-03,2320447,179817,96,Julian Hyde,substitutes,Left-Back,3,0
+69f5f4ff4ec664beb1ff54faa3647e68,2013-08-03,2320447,191691,96,Robin Krey,substitutes,Goalkeeper,27,0
+bc314d86c9aee859e848f8eec38b73f3,2013-08-03,2320447,231427,96,David Jahdadic,starting_lineup,Right Midfield,15,0
+54f95ccb514ca9f1f647b1580c57e04f,2013-08-03,2320447,280086,96,Kiwamu Etsumori,substitutes,Centre-Forward,10,0
+06df0e9e188062f0a2c20d3e6baacc15,2013-08-04,2320448,1122,41,Sven Neuhaus,substitutes,Goalkeeper,30,0
+9cfff72e6d9fd49cc523c5bfd713225b,2013-08-04,2320448,1726,41,Heiko Westermann,starting_lineup,Centre-Back,4,0
+9f6e1256c83e46dc9fa6a4f596d7db6b,2013-08-04,2320448,4192,41,Rafael van der Vaart,starting_lineup,Attacking Midfield,23,1
+c6cac018ea78ca9cee5cba058d38f0d7,2013-08-04,2320448,12864,41,Jaroslav Drobny,starting_lineup,Goalkeeper,1,0
+5f041744a19feb3a3b167a2db237e53f,2013-08-04,2320448,16624,41,Marcell Jansen,starting_lineup,Left-Back,7,0
+d0dca4d33af891bec5c6145c1e536097,2013-08-04,2320448,18918,41,Per Ciljan Skjelbred,substitutes,Central Midfield,25,0
+7c71c2826ea96f0c3fec5c85d343a8dc,2013-08-04,2320448,40633,41,Milan Badelj,starting_lineup,Defensive Midfield,14,0
+f9f04a23b0d742433b2e2b72789f8428,2013-08-04,2320448,41077,5151,Paul Schletzke,starting_lineup,Left-Back,4,0
+8503d1d7dd2a627145e114a7ff3e2f01,2013-08-04,2320448,42044,41,Dennis Diekmeier,starting_lineup,Right-Back,2,0
+4c7a2cd8d00af774257dfbd34122e5d4,2013-08-04,2320448,43538,5151,Markus Güttich,starting_lineup,Left Midfield,3,0
+21a2faa891467ccce0e0f9275d335e1e,2013-08-04,2320448,48382,5151,Danny Reuther,starting_lineup,Right Midfield,5,0
+2619a7a11644885081f52aec5db8b001,2013-08-04,2320448,53536,41,Tolgay Arslan,starting_lineup,Central Midfield,18,0
+1a8f5fcd906ee9fb3c29298be507c2f6,2013-08-04,2320448,58379,41,Maximilian Beister,starting_lineup,Right Midfield,21,0
+6f622c6df90d764e8ef8b1d1aed54905,2013-08-04,2320448,63737,41,Petr Jiracek,starting_lineup,Left Midfield,19,0
+cdb78d70aafc5b6daed6e0515993af4b,2013-08-04,2320448,75942,41,Tomás Rincón,substitutes,Defensive Midfield,8,0
+455f694df3c7f3db828c9727f3f3ad48,2013-08-04,2320448,79503,41,Lasse Sobiech,starting_lineup,Centre-Back,16,0
+8ee7c0065f8e4ce0d1c5d222d0eb3c78,2013-08-04,2320448,88444,5151,Dimo Raffel,starting_lineup,Centre-Back,13,0
+4a474ae90960e0d3e57867ca049e7972,2013-08-04,2320448,92052,5151,Brian Gheorghiu,starting_lineup,Goalkeeper,22,0
+fba21561f8754a995231df6e36859ed4,2013-08-04,2320448,103547,41,Artjoms Rudnevs,substitutes,Centre-Forward,10,0
+e9af8a7ad320ef3be494cb3effae90c4,2013-08-04,2320448,106181,41,Jacques Zoua,starting_lineup,Centre-Forward,31,0
+ed81001b49f66e727019a277cceebe08,2013-08-04,2320448,119308,5151,Maximilian Enkelmann,starting_lineup,Central Midfield,10,0
+87670e7600866ffde13bcebd3f0a3b71,2013-08-04,2320448,119309,5151,Benjamin Fonfara,substitutes,Centre-Back,21,0
+06f311fa17cae9017d4afc782b49f368,2013-08-04,2320448,119310,5151,Markus Hacker,starting_lineup,Centre-Forward,17,0
+573b03413d8c7809b7e9eff5f36f0788,2013-08-04,2320448,119316,5151,Markus Skara,substitutes,Defensive Midfield,7,0
+d2257cead6baea387f73098a1fb997c6,2013-08-04,2320448,121433,5151,Robert Bismark,substitutes,Right Midfield,8,0
+317ee4887d08f41de6edc6fe97062402,2013-08-04,2320448,125195,5151,Benjamin Bahner,starting_lineup,Centre-Forward,12,0
+d23914ebd068be8afda480bedb24d0e0,2013-08-04,2320448,125203,5151,Christian Kretzer,starting_lineup,Right-Back,18,0
+dd83db8ee9baa5c94f6b84b3fee97679,2013-08-04,2320448,125858,41,Kerem Demirbay,substitutes,Central Midfield,27,0
+8073b15ab26eecb267926bd2f9ae531e,2013-08-04,2320448,126414,41,Hakan Çalhanoğlu,substitutes,Defensive Midfield,9,0
+08632707b80ebe32e1f365539e74adc1,2013-08-04,2320448,135575,5151,Johannes Carl,starting_lineup,Centre-Back,19,1
+112c2f0370e1e1cf4249b0dba86d975c,2013-08-04,2320448,196357,41,Jonathan Tah,substitutes,Centre-Back,28,0
+68ed0f28750284623db33d4672d8377f,2013-08-04,2320448,261595,5151,Steven Dietzsch,starting_lineup,Defensive Midfield,2,0
+c982baa8261ce6193033ebe2cb102612,2013-08-04,2320448,261596,5151,Marcel Hummel,substitutes,Right Midfield,20,0
+5ae84a4ecdb6db49e3aa650c65552177,2013-08-04,2320448,261597,5151,Maximilian Klose,substitutes,Centre-Forward,11,0
+bc9e3cc1cff3c66fb03570a2de2c21dc,2013-08-04,2320448,281429,5151,Danny Lewandrowski,substitutes,Goalkeeper,1,0
+0109c87db16fd79993618e5081ed5c69,2013-08-04,2320448,281430,5151,Robin Menzel,substitutes,Centre-Back,15,0
+b199e4549eddbe5d1b4161deeb974d53,2013-08-03,2320449,6791,533,Kai Herdling,substitutes,Left Winger,38,0
+41ae1358e85182438eb57f27c7e87574,2013-08-03,2320449,19548,533,Eugen Polanski,starting_lineup,Defensive Midfield,8,0
+255ced3bee9ff5fde5d048fb8103bfb2,2013-08-03,2320449,31182,533,Andreas Beck,starting_lineup,Right-Back,2,1
+f032edce2a7fecef9b5eaa9bd20c3c19,2013-08-03,2320449,37287,533,Tarik Elyounoussi,starting_lineup,Left Winger,14,0
+4fe022c194ae943ae67cede532794daa,2013-08-03,2320449,38555,16346,Muhamed Hodzic,starting_lineup,Centre-Forward,10,0
+10d45ee45b9307894c54b4b91091522b,2013-08-03,2320449,40034,533,Jens Grahl,substitutes,Goalkeeper,13,0
+98f137e84b12a9ea12b2ae05f8a6252e,2013-08-03,2320449,50512,533,Anthony Modeste,starting_lineup,Centre-Forward,27,0
+5984d5aa6809cedf09e337cdda7cf998,2013-08-03,2320449,52530,533,Sven Schipplock,substitutes,Centre-Forward,9,0
+3671d7ec1d2f1105ee074dde7ceb1b2b,2013-08-03,2320449,57051,533,Sebastian Rudy,substitutes,Defensive Midfield,6,0
+95af480780e118b2011687e6c1a0094d,2013-08-03,2320449,57845,533,Tobias Strobl,starting_lineup,Defensive Midfield,12,0
+70678e6f06897f64ad7eac1104d3c463,2013-08-03,2320449,58178,533,David Abraham,starting_lineup,Centre-Back,19,0
+15a430162efa8bc49372ebd6edbbfc98,2013-08-03,2320449,59395,16346,Johannes Metschuck,substitutes,Left Midfield,19,0
+a80c6562b5bec605d68bd55bb2ab8d3f,2013-08-03,2320449,79136,16346,Maik Arambasic,substitutes,Attacking Midfield,5,0
+1b8b8ad0e147fc18c119fd286db45dca,2013-08-03,2320449,79156,16346,Nils Husmann,starting_lineup,Left Midfield,8,0
+78d72c4778b6f6c094243fe5d0c795af,2013-08-03,2320449,79165,16346,Daniel Mulert,starting_lineup,Centre-Forward,20,0
+643bbb949ee39292a97620120f7980e9,2013-08-03,2320449,82009,533,Kevin Volland,starting_lineup,Right Winger,31,0
+02ecb0fe5ebb881a7e54abbf7a9e4761,2013-08-03,2320449,82878,533,Robin Szarka,substitutes,Defensive Midfield,33,0
+3cac917f9b28c24ca57e769794fd1bea,2013-08-03,2320449,83865,16346,Matthias Märtens,substitutes,Right Midfield,11,0
+333e7aa53896b74a90e19e1ee4b09992,2013-08-03,2320449,83869,16346,Daniel Rosenfeldt,starting_lineup,Right-Back,13,0
+288954894350fccfe3385d951b274392,2013-08-03,2320449,88874,16346,Ferdi Uslu,starting_lineup,Left-Back,15,0
+df3f6e171fef5e3e603e3ba9bb1dda68,2013-08-03,2320449,89145,16346,Adrian Felis,substitutes,Attacking Midfield,7,0
+993fc542b5dfc0f96d87cb8b4fa99198,2013-08-03,2320449,89149,16346,Nils Göcke,starting_lineup,Centre-Back,4,0
+dbea97b111671d5794dccde2ed7f31bf,2013-08-03,2320449,89159,16346,Maik Meyer-Wersinger,starting_lineup,Goalkeeper,1,0
+41887555a47fa2e6ddcaa4bd182bfb4c,2013-08-03,2320449,89163,16346,Denis Nukic,starting_lineup,Centre-Back,16,0
+c0bbb396c5127c386378a7d1e7f4bbb9,2013-08-03,2320449,89514,16346,Kaspars Plendiskis,substitutes,Goalkeeper,25,0
+6efd60c517682b04e09ce4e12b5fda75,2013-08-03,2320449,99331,533,Jannik Vestergaard,starting_lineup,Centre-Back,29,0
+bfc972ae9ad7c1ee30aa9fe810e490a5,2013-08-03,2320449,108880,533,Koen Casteels,starting_lineup,Goalkeeper,30,0
+25bcd6793a240f5a0468c3efacdfc289,2013-08-03,2320449,115343,16346,Daniel Block,starting_lineup,Defensive Midfield,22,1
+24b5341463cb74e67927c8d7bbcdd567,2013-08-03,2320449,131789,533,Roberto Firmino,starting_lineup,Attacking Midfield,10,0
+7ca090b9f1e05ceaa578758541bd75bf,2013-08-03,2320449,132325,16346,Tobias Esche,substitutes,Centre-Back,6,0
+241b4d37eac797a18c4bffb3909e6f1d,2013-08-03,2320449,132905,16346,Ferdi Kök,starting_lineup,Right Midfield,27,0
+a190f93fab31e66044b66d211b13389d,2013-08-03,2320449,163539,16346,Abdullah Basdas,starting_lineup,Attacking Midfield,24,0
+bbc062a53b26f7a19c7eb2fd64ade9a3,2013-08-03,2320449,166601,533,Niklas Süle,substitutes,Centre-Back,25,0
+ce0f8260af2ae5e1f202d1780428c127,2013-08-03,2320449,175709,533,Stefan Thesker,starting_lineup,Left-Back,4,0
+4c36e80f32e53e67495c6a2ce9013016,2013-08-03,2320449,185077,533,Vincenzo Grifo,substitutes,Left Winger,32,0
+12f2a56b72b08753eaf5dce53b9dbaac,2013-08-03,2320449,241618,16346,Volkan Arslan,substitutes,Centre-Forward,9,0
+17f655eaa1df75e8f4e0283f643ad9d9,2013-08-04,2320450,1565,24,Alexander Meier,starting_lineup,Attacking Midfield,14,0
+7f2802f0c8d0004f3864cf9a757cf82c,2013-08-04,2320450,3942,24,Martin Lanig,substitutes,Defensive Midfield,13,0
+a6f5c2aa8fd2e295093903c3bc4dae4f,2013-08-04,2320450,11183,1468,Thorsten Rinke,substitutes,Attacking Midfield,8,0
+91333a5e1474f03a8fff50ee6402bb6e,2013-08-04,2320450,14533,24,Pirmin Schwegler,starting_lineup,Defensive Midfield,27,1
+08254c8b14a2e5d85598b192c4d43e3c,2013-08-04,2320450,16520,24,Marco Russ,starting_lineup,Centre-Back,4,0
+27af84ae70b0d4d3aa6085dd3c6f1c87,2013-08-04,2320450,17428,1468,Tobias Heikenwälder,starting_lineup,Left-Back,11,0
+a67d07c972cb85f66c5d5ffd48ac899a,2013-08-04,2320450,20451,1468,Benjamin Huber,substitutes,Goalkeeper,27,0
+fc616b32b6ac26f52b1dea929f0fbc4c,2013-08-04,2320450,27611,24,Stephan Schröck,substitutes,Left Winger,17,0
+e783051f83c78af2955098ea39a65db0,2013-08-04,2320450,28495,1468,Marc Hämmerle,starting_lineup,Left Midfield,18,0
+e5aec244a6f7ecdd869cb3b1a8ab28a2,2013-08-04,2320450,31173,24,Jan Rosenthal,starting_lineup,Second Striker,7,0
+c2e32233b7469101ac3e8d45a004087c,2013-08-04,2320450,33729,24,Stefano Celozzi,substitutes,Right-Back,22,0
+85108b282154fada2bc18884d85fc5b5,2013-08-04,2320450,34579,24,Srdjan Lakic,substitutes,Centre-Forward,11,0
+643b92f4f39af428ce4618d087392063,2013-08-04,2320450,35183,24,Stefan Aigner,substitutes,Right Winger,16,0
+b8d84728775c962da48d235b3ec15262,2013-08-04,2320450,37194,1468,Andreas Hindelang,starting_lineup,Centre-Forward,33,0
+21cd39c23b951e09560e1dfe0ed65326,2013-08-04,2320450,38415,24,Johannes Flum,starting_lineup,Central Midfield,18,0
+e89b33abd9e51cdb489f1b61e71d5ca1,2013-08-04,2320450,41866,24,Constant Djakpa,substitutes,Left-Back,15,0
+de688dc03ce6c29056cd1221f7a685bc,2013-08-04,2320450,44466,24,Sebastian Rode,starting_lineup,Central Midfield,20,0
+a56cec6afd95917936a68407abcd4382,2013-08-04,2320450,45181,1468,Sezai Zehiroğlu,substitutes,Left Midfield,9,0
+7369053f37fe1a823e6565817bb047e9,2013-08-04,2320450,49115,1468,Lukas Kling,starting_lineup,Attacking Midfield,25,0
+8464c0373baf2a39e9624d5eca7f5ab6,2013-08-04,2320450,49730,24,Sebastian Jung,starting_lineup,Right-Back,24,0
+66f6629ba8748220160c092ffd4b9e50,2013-08-04,2320450,52600,1468,Michael Passer,starting_lineup,Centre-Back,21,1
+1a1db67b7fce39f42b3322b5f8e8a38e,2013-08-04,2320450,53437,24,Bastian Oczipka,starting_lineup,Left-Back,6,0
+b5aa9ecd9b17d6d206ae27e4763b21a6,2013-08-04,2320450,53533,24,Carlos Zambrano,starting_lineup,Centre-Back,5,0
+81c1bac602f6f04366b717ec4ef9a870,2013-08-04,2320450,57838,1468,Patrick Rösch,starting_lineup,Goalkeeper,1,0
+c54db78020d8cf27cb91f1a3d51e196f,2013-08-04,2320450,79264,1468,Stephan Böck,starting_lineup,Right-Back,2,0
+cfb2dc4e1ff6f6ced8a983e3481c1731,2013-08-04,2320450,79267,1468,Ulrich Klar,substitutes,Centre-Back,6,0
+5584937c296a2c18ad04f5706208dd02,2013-08-04,2320450,81999,24,Joselu,starting_lineup,Centre-Forward,9,0
+3311794e8f9a05d8e02d3886b0430a80,2013-08-04,2320450,93561,24,Marco Aulbach,substitutes,Goalkeeper,35,0
+d72edae72cad87fa00e3394b88de7c35,2013-08-04,2320450,94800,1468,Marco Hahn,starting_lineup,Defensive Midfield,13,0
+969725af13b1588761a7a8535419ebf7,2013-08-04,2320450,94806,1468,Manuel Strahler,starting_lineup,Centre-Back,4,0
+90f1378b1c71c7a591fb4de8f0a53324,2013-08-04,2320450,111230,1468,Fabian Kling,starting_lineup,Defensive Midfield,29,0
+5ccda61b543ee0e9f80be26617e7a0c1,2013-08-04,2320450,117518,24,Aykut Özer,starting_lineup,Goalkeeper,32,0
+8605efabc3cbac445da0add01c67c198,2013-08-04,2320450,122867,1468,Ardian Morina,starting_lineup,Right Winger,16,0
+905bcb822d105a22a439ca0bb7a443e7,2013-08-04,2320450,123421,1468,Vitaliy Lux,substitutes,Centre-Forward,20,0
+cc005f3670fbd707cf37ffbbc6756735,2013-08-04,2320450,156769,1468,Sebastian Schaller,substitutes,Right Winger,19,0
+9dcb8b2d7bc749e9007bf3b243c76494,2013-08-03,2320451,691,15,Simon Rolfes,starting_lineup,Left Midfield,6,1
+9c68b814eb178fcb1b608fd1512f2606,2013-08-03,2320451,3256,15,Roberto Hilbert,substitutes,Right-Back,14,0
+d591989cc1f2ae0368e90c54b4044c65,2013-08-03,2320451,6237,15,Stefan Kießling,starting_lineup,Centre-Forward,11,0
+ba5e4adcf2c705c9575a871a2a5e936f,2013-08-03,2320451,7563,15,Andrés Palop,substitutes,Goalkeeper,25,0
+684253352a4f6cb69c49b7d369efc0b4,2013-08-03,2320451,17488,767,Marc Polder,substitutes,Attacking Midfield,8,0
+30233477ecc262208c4d5520a7f7e986,2013-08-03,2320451,20262,767,Sven Dyballa,substitutes,Left-Back,4,0
+aa53ff4ea624a992780d3893ab56c1c7,2013-08-03,2320451,25812,15,Emir Spahic,starting_lineup,Centre-Back,5,0
+8074cef8f9873b41a655bd25daefe222,2013-08-03,2320451,28947,15,Gonzalo Castro,substitutes,Left Midfield,27,0
+c9e20b1dce150212986c7bd554278dd7,2013-08-03,2320451,30059,15,Lars Bender,starting_lineup,Right Midfield,8,0
+907bbd417412fb8e7db2a34263639522,2013-08-03,2320451,31337,767,Lasse Fischer-Riepe,substitutes,Defensive Midfield,6,0
+9c4af31dbcb31da0b36075e6f043c731,2013-08-03,2320451,32367,767,Daniel Barton,starting_lineup,Right Midfield,22,0
+dde021f5c5f9f342b87e72ca08529968,2013-08-03,2320451,35196,767,Ardian Jevric,starting_lineup,Attacking Midfield,30,0
+6b0cc5ca05d0da243b0fd9484bfad0cc,2013-08-03,2320451,36234,767,Edmund Riemer,starting_lineup,Centre-Back,3,0
+6c06350a3665ec352e3cf558b0bd3ba8,2013-08-03,2320451,36914,15,Sebastian Boenisch,starting_lineup,Left-Back,17,0
+c55b177360d6c021fb19dcf785676dbd,2013-08-03,2320451,38402,767,Serdar Erdogmus,starting_lineup,Central Midfield,11,0
+528f39d7e11e5613b3e9399da73ba97e,2013-08-03,2320451,39102,15,Sidney Sam,starting_lineup,Attacking Midfield,18,0
+7bcdae82a347e6ce4e1da3f757e498b3,2013-08-03,2320451,43274,15,Stefan Reinartz,starting_lineup,Defensive Midfield,3,0
+f2c551638fcc923da8102e0edad747ba,2013-08-03,2320451,43512,15,Ömer Toprak,starting_lineup,Centre-Back,21,0
+646f5b8e48a1d8831f0a8fae9e610ebf,2013-08-03,2320451,51168,15,Jens Hegeler,starting_lineup,Attacking Midfield,13,0
+cecd1581ea5a78b17bfd8976f261a10c,2013-08-03,2320451,51972,15,Robbie Kruse,substitutes,Left Winger,23,0
+fafa12f32000f78c08ec58c0614d0d34,2013-08-03,2320451,52870,767,Julian Stöckner,substitutes,Centre-Back,5,0
+71bbe635214216874e5453ce6bb32e45,2013-08-03,2320451,53173,15,Philipp Wollscheid,substitutes,Centre-Back,4,0
+fa46928c2e8d038af00fecbbc3e04ec4,2013-08-03,2320451,55823,767,Moritz Kickermann,starting_lineup,Centre-Back,25,1
+db3c15e93eaf242c6c9365daad73a9f2,2013-08-03,2320451,72476,15,Bernd Leno,starting_lineup,Goalkeeper,1,0
+1c0c435c66394714c39cd5c458160c4e,2013-08-03,2320451,75212,767,Björn Traufetter,starting_lineup,Centre-Forward,9,0
+6fdb4c3b0547953a8176d15865162367,2013-08-03,2320451,75685,767,Damian Liesemann,substitutes,Goalkeeper,1,0
+1857c893c21ef7d3f2df1e7d893e592d,2013-08-03,2320451,82096,767,Benjamin Kolodzig,starting_lineup,Left Midfield,21,0
+f14209f1e4bef62d0365893f8954e22b,2013-08-03,2320451,88684,15,Giulio Donati,starting_lineup,Right-Back,26,0
+da74ac2dc4c4215876ee827da389bfb3,2013-08-03,2320451,91845,15,Heung-min Son,substitutes,Second Striker,7,0
+e951ee76e8f8fc3f4d988215c9ebd590,2013-08-03,2320451,115688,767,Christopher Sander,starting_lineup,Goalkeeper,12,0
+8bed10829ec99aaa0564f145e7463da6,2013-08-03,2320451,154980,767,Moritz Fritz,starting_lineup,Central Midfield,23,0
+303edc1f1054bd32e5b31b47c04c22d2,2013-08-03,2320451,165588,767,Fabian Lübbers,starting_lineup,Centre-Back,7,0
+64a70c73036fab9cada54879cdd98e0b,2013-08-03,2320451,165663,767,Viktor Maier,starting_lineup,Second Striker,10,0
+21bb64c9271b8f6e86ecf021432db33c,2013-08-03,2320451,165681,767,Lars Schröder,substitutes,Attacking Midfield,18,0
+cec3177daee11cb3f5191e62c7009cc4,2013-08-03,2320451,168543,15,Levin Öztunali,substitutes,Left Winger,15,0
+8f072feba9f502bf653b131ef3fa8343,2013-08-03,2320451,228849,767,Lukas Althoff,substitutes,Centre-Forward,14,0
+bf17826d320a3e47f81192e5fe047155,2013-08-03,2320452,892,39,Heinz Müller,starting_lineup,Goalkeeper,33,0
+9605e03c7cab5229f357a4d576459e47,2013-08-03,2320452,1139,39,Nikolce Noveski,starting_lineup,Centre-Back,4,1
+e67f23d03be4815c28cf3459e9f9bbdb,2013-08-03,2320452,1363,39,Christian Wetklo,substitutes,Goalkeeper,29,0
+0041e6a2d21dd4557ca091c022ef00a1,2013-08-03,2320452,2398,92,André Poggenborg,starting_lineup,Goalkeeper,1,0
+08fc0de79c767b76198dc79e831f200b,2013-08-03,2320452,3817,39,Malik Fathi,substitutes,Left-Back,30,0
+9b106034dbe48b04e078afcf615b720b,2013-08-03,2320452,11269,92,Tobias Fink,starting_lineup,Left-Back,2,0
+61ae353b1fc2132feaf030aa119ec6d9,2013-08-03,2320452,14974,39,Bo Svensson,starting_lineup,Centre-Back,2,0
+3e13c9ff7706b678e34cdd4b345892fb,2013-08-03,2320452,17783,92,Michael Kessel,starting_lineup,Left Winger,7,0
+18581322890c7258853d9e0a3e121daa,2013-08-03,2320452,18443,92,Sebastian Zinke,starting_lineup,Defensive Midfield,24,0
+8220bbc34542c9c6b5047a0b92bcdf28,2013-08-03,2320452,18710,92,Daniel Flottmann,starting_lineup,Centre-Back,3,1
+86fff7340784ebe3dfe543c036bcc917,2013-08-03,2320452,30070,39,Niko Bungert,substitutes,Centre-Back,26,0
+880f5ab09f0e6c91131ec2860eec7ba6,2013-08-03,2320452,31745,92,Florian Hörnig,starting_lineup,Defensive Midfield,22,0
+3caf9b0ce0c3005b4459f060844c167e,2013-08-03,2320452,32138,92,Ercan Aydogmus,substitutes,Centre-Forward,58,0
+71451cefc22543a3c279c72e30771814,2013-08-03,2320452,34787,39,Julian Baumgartlinger,starting_lineup,Defensive Midfield,14,0
+03eaffec6a4f4ec99922c573ec34bbb1,2013-08-03,2320452,39312,92,Jan-André Sievers,starting_lineup,Right-Back,23,0
+5dc374ae404cc9e206a21dcde630e8a3,2013-08-03,2320452,39426,39,Nicolai Müller,starting_lineup,Right Winger,27,0
+bd3c7980b0f70b370c7bb3770a99fdb4,2013-08-03,2320452,42908,92,Thomas Kraus,starting_lineup,Second Striker,31,0
+28797feb6f684f2c573c1958daca836c,2013-08-03,2320452,45660,39,Eric Maxim Choupo-Moting,substitutes,Left Winger,10,0
+a41f6b54809631af84103920dcefd12a,2013-08-03,2320452,45877,92,Ozan Yilmaz,starting_lineup,Right Winger,19,0
+b76f32a417065a251f6c25fb1e932cb3,2013-08-03,2320452,47290,92,Thiemo-Jérôme Kialka,starting_lineup,Centre-Forward,10,0
+eea045ef4beffd1e678a4739d2385d89,2013-08-03,2320452,50371,92,Markus Pazurek,substitutes,Defensive Midfield,5,0
+1cf395beec87aba0e5bea17088f53146,2013-08-03,2320452,55519,39,Christoph Moritz,substitutes,Central Midfield,8,0
+bdacd63b226fa32d3624a0494a3629d2,2013-08-03,2320452,58437,39,Dani Schahin,starting_lineup,Centre-Forward,18,0
+75ce60bce9dd120fd65ec3ba50afeb8a,2013-08-03,2320452,60957,39,Sebastian Polter,substitutes,Centre-Forward,9,0
+0de4191fd92c6912fa6a0879730b7681,2013-08-03,2320452,73590,92,Kusi Kwame,substitutes,Defensive Midfield,16,0
+855fb57d60fb7c141735de7edfa82302,2013-08-03,2320452,79642,39,Shinji Okazaki,starting_lineup,Left Winger,23,0
+8cf991f50896aca5bf40c357c9881873,2013-08-03,2320452,82350,39,Stefan Bell,starting_lineup,Right-Back,16,0
+84669a433daac9fc3ac84b813b9ef39d,2013-08-03,2320452,85352,39,Yunus Mallı,starting_lineup,Attacking Midfield,11,0
+bddb0fdcc4122fb77eeb25cfb88bd6b6,2013-08-03,2320452,88529,92,Oliver Laux,starting_lineup,Centre-Back,6,0
+1e67a21a1971b40d94e57bc267ae4b40,2013-08-03,2320452,89650,39,Johannes Geis,starting_lineup,Defensive Midfield,6,0
+59a120a828b77c9c36b5eb550cdb0126,2013-08-03,2320452,89659,39,Shawn Parker,substitutes,Centre-Forward,31,0
+76dccdd2cf9191b8f2ddf59dbdfd4418,2013-08-03,2320452,93920,92,Frederic Brill,substitutes,Defensive Midfield,8,0
+b915c775ded01bf3558d5046bc92e8ae,2013-08-03,2320452,94543,92,Tobias Steffen,substitutes,Left Winger,11,0
+d69aee1994b4fef8732721ae3da1a2d3,2013-08-03,2320452,111900,39,Ju-ho Park,starting_lineup,Left-Back,24,0
+39d06c1e6f12f4a1a6051151c6ccac39,2013-08-03,2320452,119785,92,Alexander Monath,substitutes,Goalkeeper,12,0
+bcd099f5181f2413a60830887cb2ba04,2013-08-03,2320452,120778,92,Kushtrim Lushtaku,substitutes,Attacking Midfield,18,0
+001fe883d1a25d098fc616bdb05450a4,2013-08-03,2320453,1428,60,Mike Hanke,starting_lineup,Centre-Forward,9,0
+c7d25f0f0c6e8cad217a117966d8a59e,2013-08-03,2320453,8277,1151,Salvatore Rogoli,substitutes,Left Midfield,10,0
+37d83a1293cb7610c1607674728bac0a,2013-08-03,2320453,10885,60,Karim Guédé,substitutes,Centre-Forward,31,0
+b3fdfa3d08144e24d537c35ce079d296,2013-08-03,2320453,20081,60,Gelson Fernandes,starting_lineup,Defensive Midfield,4,0
+a3668e0682a3c71c5d37204b18d186f2,2013-08-03,2320453,25468,60,Sebastian Freis,substitutes,Centre-Forward,35,0
+0aea3b31b52ed416a019e5d5e0ef5605,2013-08-03,2320453,27900,60,Mensur Mujdza,starting_lineup,Right-Back,24,0
+a8babcb6dfea62ab21af2e108dfab054,2013-08-03,2320453,29865,60,Julian Schuster,starting_lineup,Defensive Midfield,23,0
+ebd61e514099cbad5debad80c23cb7e7,2013-08-03,2320453,31609,1151,Ingo Wunderlich,substitutes,Right-Back,6,0
+c9238a0323e5b878c61420864a8c50f9,2013-08-03,2320453,32373,1151,Kai Hempel,starting_lineup,Defensive Midfield,8,0
+e3bb4d84a178dee2f5a2e751d2ed4c99,2013-08-03,2320453,39668,1151,Christian Schönwälder,substitutes,Centre-Back,3,0
+567c9517dd5dd303d193c8bef472227e,2013-08-03,2320453,39715,1151,Thomas Franke,starting_lineup,Centre-Back,4,0
+f808e7e667a967a0aced60f9541bff1e,2013-08-03,2320453,41209,1151,Velimir Jovanovic,starting_lineup,Centre-Forward,36,0
+45490abcb2c25e44e00482854d05a723,2013-08-03,2320453,41503,1151,Rico Morack,starting_lineup,Centre-Back,13,0
+ff7d401debc9f09ddd454dd8c364f10d,2013-08-03,2320453,55089,60,Oliver Baumann,starting_lineup,Goalkeeper,1,0
+3af3bdc91e2da6b93f571832d2c1fbfa,2013-08-03,2320453,55099,60,Nicolas Höfler,substitutes,Defensive Midfield,27,0
+6a5de4ac196e225e3c1fd4cca3b0c87c,2013-08-03,2320453,55114,60,Oliver Sorg,starting_lineup,Left-Back,25,0
+8badb3f0073c02110911f664bb288333,2013-08-03,2320453,57658,1151,René Pütt,starting_lineup,Left-Back,16,0
+37aea7a6daca4ecca654a20afa436fe3,2013-08-03,2320453,65469,1151,Dino Medjedovic,starting_lineup,Attacking Midfield,20,0
+34f4117d753a0bfb65a21509f2debcee,2013-08-03,2320453,66058,60,Admir Mehmedi,starting_lineup,Second Striker,14,0
+89e0e3d8e19f2eebd44ae25f460af440,2013-08-03,2320453,70285,60,Jonathan Schmid,starting_lineup,Right Midfield,17,0
+30915b1287a963957b69fbc563f08c64,2013-08-03,2320453,74869,60,Francis Coquelin,starting_lineup,Left Midfield,20,0
+3204e1fc0dbef047711d3fc3f34a271e,2013-08-03,2320453,77920,60,Immanuel Höhn,starting_lineup,Centre-Back,41,0
+95c7d7855fd268892f7f3b8e8905cc71,2013-08-03,2320453,82018,60,Hendrick Zuck,substitutes,Left Midfield,11,0
+3985281015140c24cfb9ab976e6184da,2013-08-03,2320453,82389,60,Fallou Diagne,substitutes,Centre-Back,3,0
+94369da75ec9435029e42a7beaf98162,2013-08-03,2320453,84452,1151,Christoph Haker,substitutes,Goalkeeper,1,0
+4a531fdb5794f070443adf3ddd4bc24d,2013-08-03,2320453,90317,60,Daniel Batz,substitutes,Goalkeeper,19,0
+2a437bff96a080e8b59770e81f2a03d9,2013-08-03,2320453,93707,60,Christian Günter,substitutes,Left-Back,30,0
+1838c77647a43d75740e1d6779c5d63b,2013-08-03,2320453,94135,1151,Alexander Morozov,substitutes,Right Midfield,11,0
+fd6ab8f2836a1305303fcdcfd9ad7f30,2013-08-03,2320453,95803,1151,Lukas Novy,starting_lineup,Right-Back,2,0
+acde7115ae5571dc6c8a468b61aacfa9,2013-08-03,2320453,107901,1151,Christian Skoda,starting_lineup,Central Midfield,17,0
+d82d96fe0e2757558ec42daec972e5b6,2013-08-03,2320453,115330,1151,Daniel Bittner,starting_lineup,Goalkeeper,22,0
+328f483e6100e249bede3c4b8a4bd0b6,2013-08-03,2320453,124502,60,Matthias Ginter,starting_lineup,Centre-Back,28,0
+1781271f10d480993a6df7ee9ce94a0b,2013-08-03,2320453,145948,1151,Tony Fuchs,starting_lineup,Left Midfield,9,0
+513795069db52378f2f2cf0cf7841874,2013-08-03,2320453,153459,1151,Hugo Lopes,starting_lineup,Right Midfield,23,0
+a2105567d374bf8fbc3c4fbc90944f65,2013-08-03,2320453,215535,1151,Abiola Folarin,substitutes,Centre-Forward,14,0
+06c7a515b5ab4b80ad00e01cee6c38c2,2013-08-03,2320453,262979,1151,Matthias Zeugner,substitutes,Centre-Back,19,0
+d04227ef5394200acd60956b1a65ee41,2013-08-04,2320454,1366,222,Björn Brunnemann,starting_lineup,Attacking Midfield,23,0
+dae36ac68b06104009e242ff6a9afd9d,2013-08-04,2320454,1426,79,Cacau,starting_lineup,Right Winger,18,0
+9f264db829282e426b3fb548f2509e76,2013-08-04,2320454,2048,222,Philipp Haastrup,starting_lineup,Centre-Back,4,0
+f744498ff8a06f2e9ec00250e19cf70d,2013-08-04,2320454,6213,222,Denis Novacic,starting_lineup,Defensive Midfield,6,0
+f42d215afaa0bc5c5fbeb8996e9bc7b5,2013-08-04,2320454,18400,222,Jörn Wemmer,substitutes,Right Midfield,13,0
+c89015288c4015bba32cfe58b28e811b,2013-08-04,2320454,19112,79,Christian Gentner,starting_lineup,Defensive Midfield,20,0
+3dd55c8f40cbec80540771e983ddfcbc,2013-08-04,2320454,21175,79,Vedad Ibisevic,starting_lineup,Centre-Forward,9,0
+aeed6c01fb69320e5dd30598fee005cf,2013-08-04,2320454,21972,79,Cristian Molinaro,substitutes,Left-Back,21,0
+7b081c45504b9039a8fa260ff383e33d,2013-08-04,2320454,31159,79,Martin Harnik,substitutes,Right Winger,7,0
+2e6f318ca5a8d91572889104eff3729a,2013-08-04,2320454,31570,79,Georg Niedermeier,starting_lineup,Centre-Back,6,0
+e476f6a5e8c29699ec8513e5d9a86571,2013-08-04,2320454,32232,222,Nico Hinz,substitutes,Goalkeeper,12,0
+2f4cc8b17f2af4360c447c19c036259f,2013-08-04,2320454,32623,222,Christian Preiß,substitutes,Right Winger,9,0
+a10f555636dfd8aec07d091d86e9e86e,2013-08-04,2320454,34593,79,Serdar Taşçı,starting_lineup,Centre-Back,5,1
+76eaf189bdb8f07063755c397d44db29,2013-08-04,2320454,36787,79,William Kvist,substitutes,Defensive Midfield,4,0
+a753ecab27a9291544fa92f99ca0af5f,2013-08-04,2320454,38346,79,Thorsten Kirschbaum,substitutes,Goalkeeper,22,0
+56e2e10ce6cdd92fa9528b7a4c58a830,2013-08-04,2320454,38434,79,Daniel Schwaab,starting_lineup,Right-Back,3,0
+a407e829360ebcd007b43c05868d871a,2013-08-04,2320454,40473,222,Stephan Flauder,starting_lineup,Goalkeeper,1,0
+962515f6798724a81fd31172dd3e376e,2013-08-04,2320454,40680,79,Sven Ulreich,starting_lineup,Goalkeeper,1,0
+fd3db1a7574c018c1108a561495b2878,2013-08-04,2320454,44130,222,Ronald Wolf,substitutes,Centre-Back,3,0
+bfb89df10b00ba69d84f692fb6459263,2013-08-04,2320454,47285,79,Ibrahima Traoré,starting_lineup,Left Winger,16,0
+d6c22bd8f8974f3dd211e99b601b1e92,2013-08-04,2320454,51217,222,Philip Saalbach,starting_lineup,Right-Back,16,0
+0c0df9d3f9dccc950b820ae135790dc7,2013-08-04,2320454,52342,222,Tobias Scharlau,starting_lineup,Right Winger,14,0
+378481984f2b9d28d61dce99ec1cda3b,2013-08-04,2320454,61901,79,Mohammed Abdellaoue,substitutes,Centre-Forward,25,0
+5b71d799f286364f46e9392d49245fb7,2013-08-04,2320454,81578,222,Patrick Brendel,starting_lineup,Centre-Back,5,0
+f56ddeda9c616e0a442ac77e80f87b44,2013-08-04,2320454,82243,79,Moritz Leitner,starting_lineup,Defensive Midfield,8,0
+15f092aee8c2d40df25f60083e8a99bb,2013-08-04,2320454,86202,79,Antonio Rüdiger,substitutes,Centre-Back,24,0
+ebbdaa45e6d4c7d6828b5c1a9aefc1c1,2013-08-04,2320454,103310,79,Gotoku Sakai,starting_lineup,Left-Back,2,0
+21c26ccec374b7c606a7b741fd7b269b,2013-08-04,2320454,105670,222,Kevin Gutsche,starting_lineup,Defensive Midfield,7,0
+d7349dcaacd982bd08a000cd947c3de6,2013-08-04,2320454,115655,222,Christof Köhne,starting_lineup,Left-Back,22,0
+084464625d45512fdba0040346d925bf,2013-08-04,2320454,118445,222,Daniel Wolkiewicz,substitutes,Right Midfield,24,0
+9e7cbe2a1bdb657b1d425a33f4c26b3a,2013-08-04,2320454,124354,222,Lukas Rehbein,starting_lineup,Left Winger,17,0
+aa9a8f0c85b51d494eff228b1d6130c6,2013-08-04,2320454,129513,79,Alexandru Maxim,starting_lineup,Attacking Midfield,44,0
+6dbac19fbb12696578887f8e54dce8e7,2013-08-04,2320454,151116,222,Christopher Kalkutschke,substitutes,Right Winger,20,0
+be0924251f5ccc682c6f6a2e406aea85,2013-08-04,2320454,159286,222,Djibril N'Diaye,starting_lineup,Centre-Forward,11,0
+16d5d65738cf85d80cbe325765864271,2013-08-04,2320454,170527,79,Timo Werner,substitutes,Centre-Forward,19,0
+03b97eeec8ab5005e01b9d03913a7961,2013-08-04,2320454,223314,222,Richard Ohlow,substitutes,Left-Back,8,0
+d60241e16803ca3d2a5b0249c8e6f71d,2013-08-04,2320455,1586,42,Christian Schulz,starting_lineup,Centre-Back,19,0
+99f93acfeb06570dfae8c90b2661b798,2013-08-04,2320455,1874,431,Andreas Brück,starting_lineup,Right-Back,2,0
+003fb4c86511899eaa8b0fa056c628e2,2013-08-04,2320455,2306,42,Markus Miller,substitutes,Goalkeeper,14,0
+a61e97dcb17e680a4d4de03a7bd1cbba,2013-08-04,2320455,2805,42,Christian Pander,starting_lineup,Left-Back,24,0
+23534f3b17fad5eeedfe391127011532,2013-08-04,2320455,3114,42,Jan Schlaudraff,starting_lineup,Second Striker,13,0
+585827301ba484d1f167ac674bde6c34,2013-08-04,2320455,8159,431,Marcus Rabenhorst,starting_lineup,Defensive Midfield,24,1
+9c64cec28f5e386eb1832c7c335c4ce5,2013-08-04,2320455,14440,431,Sven Trimborn,starting_lineup,Defensive Midfield,6,0
+07d1b85312695391da92e4a671df715d,2013-08-04,2320455,16860,431,Jakob Sachs,starting_lineup,Left Winger,9,0
+98b769776d89ee3149d416511b8086f4,2013-08-04,2320455,17804,42,Sébastien Pocognoli,substitutes,Left-Back,18,0
+2bb8e280f2404ea894dec29a9a3537d0,2013-08-04,2320455,17885,42,Karim Haggui,starting_lineup,Centre-Back,3,0
+955a3010498fd841d4d32d22545a1fa2,2013-08-04,2320455,18331,42,Szabolcs Huszti,starting_lineup,Left Midfield,10,0
+6751268e579b9575514c75731e67e55d,2013-08-04,2320455,19382,431,Mike Keyser,starting_lineup,Centre-Back,8,0

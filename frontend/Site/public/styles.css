@@ -862,3 +862,560 @@ canvas {
 .fixture-info a:hover {
     text-decoration: underline;
 }
+
+.club-section {
+    margin-bottom: 30px;
+}
+
+.player-info {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.player-info p {
+    margin: 5px 0;
+}
+.stats {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stats p {
+    font-size: 1.2em;
+    color: white;
+}
+
+#pitch-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #000;
+    background-color: green; /* Represents the pitch */
+}
+
+#pitch-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/* Pitch styling */
+#pitch-container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#pitch {
+    background-color: green;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Stats styling */
+.statistics {
+    margin-top: 20px;
+}
+
+.statistics h2 {
+    margin-bottom: 10px;
+}
+
+/* Main content area */
+.main-content {
+    margin-left: 250px; /* Adjust to match the width of the sidebar */
+    padding: 20px;
+}
+
+/* Full-width card for the pitch */
+.full-width-card {
+    background-color: var(--card-bg-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 270px); /* Adjust to fill the space between the sidebar and the edge of the page */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pitch container styling */
+#pitch-container {
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    position: relative;
+}
+
+/* Content grid for stats and lineups */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: var(--card-bg-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Lineups container */
+.lineups-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lineup {
+    width: 45%;
+}
+
+.lineup h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lineup ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lineup ul li {
+    margin-bottom: 8px;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Adjustments for responsive design */
+@media (max-width: 768px) {
+    .full-width-card {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lineups-container {
+        flex-direction: column;
+    }
+
+    .lineup {
+        width: 100%;
+    }
+}
+
+.similar-players {
+    margin-top: 20px;
+}
+
+.similar-players h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.similar-players ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.similar-players li {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.similar-players li:hover {
+    transform: scale(1.05);
+}
+
+.similar-players li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.similar-players li a:hover {
+    color: #007bff;
+}
+
+.similar-players li img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.similar-players li p {
+    margin: 5px 0;
+}
+/* Match details card */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Lineups cards */
+.lineup-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 1%;
+}
+
+.lineup-card h3 {
+    margin-top: 0;
+}
+
+/* Flex container for lineups */
+.lineups-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Add a clear fix for last child elements */
+.lineups-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.team-lineups {
+    margin-bottom: 40px;
+}
+
+.team-lineups h3 {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.lineup-subsection {
+    margin-bottom: 20px;
+}
+
+.lineup-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.control-panel {
+    max-width: 400px;
+}
+
+.team-stats-card {
+    max-width: 400px;
+}
+
+.control-panel h3, .team-stats-card h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.control-panel select, .control-panel button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.control-panel button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.control-panel button:hover {
+    background-color: #0056b3;
+}
+
+.team-stats-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Play-by-play container */
+.play-by-play-container {
+    margin-top: 20px;
+    max-width: 100%;
+    height: 500px;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.play-by-play-event {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.play-by-play-event .card {
+    background-color: #e7f3ff;
+    border-left: 5px solid #007bff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.play-by-play-event .card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+#expand-stats-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#expand-stats-button:hover {
+    background-color: #0056b3;
+}
+
+.hidden-stats-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.team-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team {
+    width: 48%;
+}
+
+.team h4 {
+    margin-bottom: 10px;
+}
+.events-container {
+    max-height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.event-card h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.event-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Styling for the expanded stats container */
+#hidden-stats {
+    display: none; /* Initially hidden */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Button styling for expand/collapse */
+#expand-stats-button {
+    background-color: #007bff; /* Bootstrap-like primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#expand-stats-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Additional styling for the stats within the container */
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.stats-table th, .stats-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.stats-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        padding: 15px;
+    }
+
+    #expand-stats-button {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+.substitution-prediction-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.substitution-prediction-card h3 {
+    margin-bottom: 10px;
+}
+
+.change-prediction-card p {
+    margin: 5px 0;
+}\.change-prediction-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.change-prediction-card h3 {
+    margin-bottom: 10px;
+}
+
+.change-prediction-card p {
+    margin: 5px 0;
+}
+
+.match-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.match-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.match-card h3 {
+    margin-top: 0;
+}
+
+.match-card p {
+    margin: 5px 0;
+}
+
+.match-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.match-link:hover {
+    background-color: #0056b3;
+}

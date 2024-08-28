@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Match Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="SquadSight_transparent-.png" alt="SquadSight Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="live.html"><i class="fas fa-eye"></i> Live View</a></li>
+                <li><a href="matchcentre.html"><i class="fas fa-futbol"></i> Match Centre</a></li>
+                <li><a href="squad.html"><i class="fas fa-users"></i> Squad View</a></li>
+                <li><a href="scouting.html"><i class="fas fa-search"></i> Scouting</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings & Preferences</a></li>
+                <li><a href="documentation.html"><i class="fas fa-question-circle"></i> Help & Documentation</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn"><i class="fas fa-adjust"></i> Toggle Dark Mode</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Match Details</h1>
+        </header>
+
+        <div class="container">
+            <!-- Match Details Card -->
+            <div id="match-details" class="card"></div>
+        
+            <!-- Lineups Container -->
+            <div id="home-team-lineups" class="team-lineups"></div>
+            <div id="away-team-lineups" class="team-lineups"></div>
+        </div>
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

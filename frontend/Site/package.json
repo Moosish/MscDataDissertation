@@ -4,11 +4,11 @@
     "description": "SquadSight Application",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "@google-cloud/bigquery": "^5.7.0"
+        "@google-cloud/bigquery": "^5.7.0",
+        "@google-cloud/storage": "^7.12.1",
+        "express": "^4.17.1"
     }
-  }
-  
+}
