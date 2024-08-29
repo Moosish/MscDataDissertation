@@ -1,20 +1,20 @@
-# Use an official Node.js runtime as a parent image
-FROM node:16-slim
+# Use the official Node.js image as the base image
+FROM node:14
 
-# Set the working directory
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copy package.json and package-lock.json files
+# Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
-# Install dependencies
+# Install Node.js dependencies
 RUN npm install --production
 
-# Copy the rest of the application code
+# Copy the rest of the application code to the working directory
 COPY . .
 
-# Expose the port the app runs on
+# Expose port 8080 to Cloud Run
 EXPOSE 8080
 
-# Define the command to start the app
+# Run the Node.js application
 CMD ["node", "server.js"]
